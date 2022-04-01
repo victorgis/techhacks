@@ -576,6 +576,13 @@ button.courses {
   margin-left: 15%;
 }
 
+.services .icon-box h4.course {
+  padding-top: 230px;
+}
+.services .icon-box div.icon {
+  padding-top: 170px;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -803,29 +810,38 @@ button.courses {
     margin: 30px 10px;
   }
   img.courses {
-    width: 350px !important;
-    height: 231px !important;
+    width: 340px !important;
+    height: 224px !important;
   }
   h4.courses {
     text-align: left;
-    padding-left: 5%;
+    padding-left: 3%;
   }
   p.courses {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     text-align: justify;
     text-justify: inter-word;
   }
   button.courses {
     float: left;
-    margin-left: 5%;
+    margin-left: 3%;
   }
   .services .icon-box {
     text-align: center;
     padding-top: 0px;
-    margin-top: 0px;
     transition: all ease-in-out 0.3s;
     background: #fff;
+  }
+  .services .icon-box h4.course {
+    padding-top: 130px;
+  }
+  .services .icon-box div.icon {
+    padding-top: 130px;
+  }
+  section {
+    padding: 80px 0;
+    overflow: hidden;
   }
   
 }
