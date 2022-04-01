@@ -854,6 +854,10 @@ button.courses {
   .services .icon-box h4.maincourse {
     padding-top: 120px;
   }
+
+  .services .icon-box div.maincourse {
+    padding-top: 130px;
+  }
   
 }
 
