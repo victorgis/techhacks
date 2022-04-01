@@ -369,6 +369,10 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
+.hero {
+  height: 0vh !important;
+  padding-top: 0px;
+}
 #hero .container, #hero .container-fluid {
   padding-top: 84px;
 }
@@ -553,6 +557,23 @@ section {
   position: absolute;
   right: 20px;
   top: 12px;
+}
+
+/* courses */
+
+h4.courses {
+  text-align: left;
+  padding-left: 15%;
+}
+p.courses {
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+button.courses {
+  float: left;
+  margin-left: 15%;
 }
 
 /*--------------------------------------------------------------
@@ -781,6 +802,32 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
+  img.courses {
+    width: 350px !important;
+    height: 231px !important;
+  }
+  h4.courses {
+    text-align: left;
+    padding-left: 5%;
+  }
+  p.courses {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  button.courses {
+    float: left;
+    margin-left: 5%;
+  }
+  .services .icon-box {
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+  }
+  
 }
 
 /*--------------------------------------------------------------
