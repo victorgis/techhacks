@@ -579,8 +579,14 @@ button.courses {
 .services .icon-box h4.course {
   padding-top: 230px;
 }
+.services .icon-box h4.maincourse {
+  padding-top: 90px;
+}
 .services .icon-box div.icon {
   padding-top: 170px;
+}
+.services .icon-box div.maincourse {
+  padding-top: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -842,6 +848,10 @@ button.courses {
   section {
     padding: 80px 0;
     overflow: hidden;
+  }
+
+  .services .icon-box h4.maincourse {
+    padding-top: 120px;
   }
   
 }
