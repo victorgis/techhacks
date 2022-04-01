@@ -842,9 +842,10 @@ button.courses {
   .services .icon-box h4.course {
     padding-top: 130px;
   }
-  .services .icon-box div.icon {
+  .services .icon-box div.course {
     padding-top: 130px;
   }
+ 
   section {
     padding: 80px 0;
     overflow: hidden;
