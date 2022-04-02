@@ -138,6 +138,9 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -571,10 +574,10 @@ p.courses {
   text-align: justify;
   text-justify: inter-word;
 }
-button.courses {
+/* button.courses {
   float: left;
   margin-left: 15%;
-}
+} */
 
 .services .icon-box h4.course {
   padding-top: 230px;
@@ -615,7 +618,7 @@ button.courses {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 100px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -829,10 +832,10 @@ button.courses {
     text-align: justify;
     text-justify: inter-word;
   }
-  button.courses {
+  /* button.courses {
     float: left;
     margin-left: 3%;
-  }
+  } */
   .services .icon-box {
     text-align: center;
     padding-top: 0px;
@@ -858,6 +861,8 @@ button.courses {
   .services .icon-box div.maincourse {
     padding-top: 135px;
   }
+
+  
   
 }
 
